@@ -1,6 +1,8 @@
 from fasta_tools import read_fasta, save_fasta
 from PC6_encoding import padding_seq, PC_encoding
 import numpy as np
+import argparse
+import pandas as pd
 from tensorflow.keras.models import load_model
 
 
